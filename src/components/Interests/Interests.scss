@@ -1,0 +1,12 @@
+@import '../../styles/utils.scss';
+
+.interests {
+
+  .interest {
+    margin-top: $spacing;
+  }
+
+  .bold {
+    font-weight: $font-weight-bold;
+  }
+}
