@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.scss';
 import Header from './components/Header/Header';
 import Hello from './components/Hello/Hello';
 import Projects from './components/Projects/Projects';
@@ -9,6 +8,7 @@ import Interests from './components/Interests/Interests';
 import References from './components/References/References';
 import SayHello from './components/SayHello/SayHello';
 import Skills from './components/Skills/Skills';
+import './App.scss';
 
 function App() {
   const [isPrintMode, setIsPrintMode] = useState(false);
@@ -19,16 +19,25 @@ function App() {
 
   return (
     <div className='container'>
-      <Header />
-      <Hello />
-      <Projects />
-      <Experience />
-      <SayHello showPrivateDetails={isPrintMode} />
-      <Skills />
-      <Education />
-      <Interests />
-      <References />
-    </div>
+			<div className='container__header'>
+				<Header />
+			</div>
+			<div className='container__body'>
+				<div>
+					<Hello />
+					<Projects />
+					<Experience />
+				</div>
+				{isPrintMode && <div className='container__body__divider'></div>}
+				<div>
+					<SayHello showPrivateDetails={isPrintMode} />
+					<Skills />
+					<Education />
+					<Interests />
+					<References />
+				</div>
+			</div>
+		</div>
   );
 }
 
