@@ -1,0 +1,35 @@
+@import '../../styles/utils.scss';
+
+.projects {
+
+  .project {
+    margin-top: $spacing;
+  }
+
+  .bold {
+    font-weight: $font-weight-bold;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .project-link {
+    color: $color-primary;
+    text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+
+  @include mq($from: tablet) {
+    h3 {
+      text-align: right;
+    }
+  }
+
+  @media print {
+    h3 {
+      text-align: right;
+    }
+  }
+}
