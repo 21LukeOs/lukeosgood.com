@@ -1,0 +1,20 @@
+@import '../../styles/utils.scss';
+
+.hello {
+
+  @include mq($from: tablet) {
+    p {
+      text-align: justify;
+    }
+
+    h3 {
+      text-align: right;
+    }
+  }
+
+  @media print {
+    h3 {
+      text-align: right;
+    }
+  }
+}
