@@ -8,6 +8,7 @@ import Experience from './components/Experience/Experience';
 import Interests from './components/Interests/Interests';
 import References from './components/References/References';
 import SayHello from './components/SayHello/SayHello';
+import Skills from './components/Skills/Skills';
 
 function App() {
   const [isPrintMode, setIsPrintMode] = useState(false);
@@ -23,6 +24,7 @@ function App() {
       <Projects />
       <Experience />
       <SayHello showPrivateDetails={isPrintMode} />
+      <Skills />
       <Education />
       <Interests />
       <References />
