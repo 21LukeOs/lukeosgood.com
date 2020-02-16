@@ -9,9 +9,6 @@
   .bold {
     font-weight: $font-weight-bold;
 
-    &:hover {
-      opacity: 0.6;
-    }
   }
 
   .project-link, .github-link {
@@ -19,6 +16,11 @@
     text-decoration: none;
     opacity: 1;
     transition: opacity 0.5s;
+
+    &:hover,
+    &:focus {
+      opacity: 0.5;
+    }
   }
 
   @include mq($from: tablet) {

@@ -23,7 +23,7 @@ const Project = ({ label, url, description, github }) => {
 					rel='noopener noreferrer'
 					className='github-link'>
 					<span className='bold'>
-						<img src={extLink} alt='external link' /> GitHub
+						<img src={extLink} alt='external link' /> The Code
 					</span>
 				</a>
 			) : null}
