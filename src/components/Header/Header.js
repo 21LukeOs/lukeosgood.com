@@ -1,4 +1,5 @@
 import React from 'react';
+import extLink from '../../assets/external-link.svg';
 import './Header.scss';
 
 const Header = () => {
@@ -16,7 +17,7 @@ const Header = () => {
       rel="noopener noreferrer"
       className='the-code'
       >
-        <p className='the-code'>(https://github.com/21LukeOs/lukeosgood.com)</p>
+        <p className='the-code'><img src={extLink} alt='external link' /> The Code</p>
       </a>
     </header>
   );
