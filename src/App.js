@@ -25,7 +25,7 @@ function App() {
 			<div className='container__body'>
 				<div>
 					<Hello />
-					<Projects />
+					<Projects addBreak={isPrintMode} />
 					<Experience />
 				</div>
 				{isPrintMode && <div className='container__body__divider'></div>}

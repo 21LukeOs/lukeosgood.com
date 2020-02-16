@@ -3,7 +3,7 @@ import extLink from '../../assets/external-link.svg';
 import './Projects.scss';
 import PropTypes from 'prop-types';
 
-const Project = ({ label, url, description, github }) => {
+const Project = ({ label, url, description, github, addBreak }) => {
 	return (
 		<li className='project'>
 			<a
@@ -15,7 +15,7 @@ const Project = ({ label, url, description, github }) => {
 					<img src={extLink} alt='external link' /> {label}
 				</span>
 			</a>
-			: {description}{' '}
+			: {description}{' '} {addBreak ? <br/> : ''}
 			{github ? (
 				<a
 					href={github}
