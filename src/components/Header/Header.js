@@ -15,7 +15,7 @@ const Header = () => {
       href='https://github.com/21LukeOs/lukeosgood.com'
       target="_blank"
       rel="noopener noreferrer"
-      className='the-code'
+      className='the-code-link'
       >
         <p className='the-code'><img src={extLink} alt='external link' /> The Code</p>
       </a>
