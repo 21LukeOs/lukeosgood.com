@@ -21,6 +21,6 @@ export const education = [
     graduation_year: 2007,
     school: 'East York Collegiate Institute',
     location: 'Toronto, ON',
-    description: `High School`
+    description: `High School Diploma`
   }
 ];

@@ -35,7 +35,8 @@ Project.propTypes = {
 	label: PropTypes.string.isRequired,
 	url: PropTypes.string.isRequired,
 	description: PropTypes.string.isRequired,
-	github: PropTypes.string
+  github: PropTypes.string,
+  addBreak: PropTypes.bool.isRequired
 };
 
 export default Project;

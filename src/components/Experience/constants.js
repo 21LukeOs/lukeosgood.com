@@ -1,6 +1,6 @@
 export const jobs = [
   {
-    start_date: 'May 2019',
+    start_date: 'May 2013',
     end_date: 'October 2019',
     position: 'Deliveries',
     company: 'Mama Earth Organics',
