@@ -7,7 +7,7 @@ export const jobs = [
     location: 'Toronto, CA',
     description: null,
     achievements: [
-      'Improved efficiency through optimization of routes and managing high volume delivery of product to customers.',
+      'Improved efficiency through impeccable time management, optimization of routes and managing high volume delivery of product to customers.',
       'Rewarded for examplary performance with increases to compensation',
       'Collaborated with coworkers to solve unforeseen problems that arose.'
     ]
