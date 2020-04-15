@@ -7,7 +7,7 @@ export const interests = [
   {
     type: 'movies',
     label: 'Movies',
-    description: 'Enjoy movies and episodics, as well as the hunt/search for good ones. Especially Nordic murder mysteries.'
+    description: `Enjoy movies and episodics. A few of my favourites recently have been 'Zerozerozero', 'The Expanse', 'Homeland', 'Pagan Peak (Der Pass)', 'Westworld', 'Better Call Saul'.`
   },
   {
     type: 'travelling',
