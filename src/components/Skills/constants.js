@@ -9,9 +9,10 @@ export const skills = [
     type: 'frameworks-libraries',
     label: 'Frameworks / Libraries',
     list: [
-      'React',
+      'React.js',
+      'Redux.js',
       'Node.js',
-      'Express',
+      'Express.js',
     ]
   },
   {

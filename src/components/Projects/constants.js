@@ -10,14 +10,14 @@ export const projects = [
     type: 'project2',
     label: 'Mock-up Conversion',
     url: 'https://mockupconversion.site',
-    description: 'A fully responsive PSD conversion, with comments section implemented with vanilla javascript.',
+    description: 'A fully responsive PSD conversion, with comments section implemented with vanilla JavaScript.',
     github: 'https://github.com/21LukeOs/luke-osgood-bandsite'
   },
   {
     type: 'project3',
     label: 'LO Trivia',
     url: 'https://lotrivia.com',
-    description: 'A short (timed) trivia game, using javascript and jquery.',
+    description: 'A short (timed) trivia game, using JavaScript and jQuery.',
     github: null
   }
 ];
