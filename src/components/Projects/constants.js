@@ -1,10 +1,10 @@
 export const projects = [
   {
     type: 'project1',
-    label: 'Searchable List - React',
-    url: 'https://determined-goldberg-9ce5a2.netlify.com',
-    description: 'A searchable list populated by json accessed from an api. Ability to add tags to each list item.',
-    github: 'https://github.com/21LukeOs/React-searchable-list'
+    label: 'Artfully Live',
+    url: 'https://artfullylive.herokuapp.com/',
+    description: 'This is a MERN stack application which allows users to upload their photography, and vote on their favourite images.',
+    github: 'https://github.com/21LukeOs/Artfully-Live'
   },
   {
     type: 'project2',
