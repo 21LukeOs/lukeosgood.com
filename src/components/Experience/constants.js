@@ -22,7 +22,7 @@ export const jobs = [
     achievements: [
       'Delivered exceptional, friendly, and fast service.',
       'Skillfully anticipated and addressed guests’ service needs.',
-      'Managed closing duties, including restocking items and reconciliation  of the cash drawer.'
+      'Managed closing duties, including restocking items and reconciliation of the cash drawer.'
     ]
   },
   {
